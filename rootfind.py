@@ -4,7 +4,7 @@ import math
 def root_find(n, d, start = None, stop = None):
 
     '''
-    Takes an integer and finds the specified root of it using the binary search algorithm, generalized binomial expansion formula, and Newton's Method formula
+    Takes an integer and finds the specified root of it (such that n = root ** d) using the binary search algorithm, generalized binomial expansion formula, and Newton's Method formula
     Args:
         n: integer for which we want to find a root (int)
         d: root value (int)
